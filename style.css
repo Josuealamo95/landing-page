@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
     color: white;
     flex-direction: column;
-    padding: 16px 80px 64px;
+    padding: 0px 100px;
 }
 
 .header {
@@ -16,7 +16,18 @@ body {
     justify-content: space-between;
 }
 
+.intro {
+    padding: 70px 0px;
+    display: flex;
+}
+
 ul {
     display: flex;
     margin: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+
 }
