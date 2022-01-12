@@ -57,7 +57,13 @@ media {
 }
 
 .signup {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 119, 226);
+    color: white;
+    padding: 32px 70px;
+    margin: 64px 140px;
 }
 
 .quote .author {
