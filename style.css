@@ -19,15 +19,43 @@ body {
 .intro {
     padding: 70px 0px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
+.intro img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro *{
+    flex:1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 140px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
 ul {
     display: flex;
     margin: 0;
     list-style: none;
     gap: 16px;
-}
-
-a {
-
 }
