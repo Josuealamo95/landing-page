@@ -52,6 +52,17 @@ media {
 .quote {
     display: flex;
     flex-direction: column;
+    padding: 64px 172px;
+    background-color: rgb(211, 211, 211);
+}
+
+.signup {
+    
+}
+
+.quote .author {
+    display: flex;
+    justify-content: flex-end;
 }
 ul {
     display: flex;
