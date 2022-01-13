@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner {
@@ -15,6 +16,22 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.intro .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtext, .links, .intro img {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .intro {
