@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .banner {
@@ -69,6 +70,15 @@ media {
 .quote .author {
     display: flex;
     justify-content: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(26, 26, 77);
+    color: white;
 }
 ul {
     display: flex;
