@@ -26,6 +26,7 @@ body {
 .intro .title {
     font-size: 48px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .subtext, .links {
@@ -68,6 +69,7 @@ body {
 .info .title {
     font-size: 36px;
     font-weight: bold;
+    color: #1F2937;
 }
 media {
     display: flex;
@@ -87,17 +89,35 @@ media img {
     display: flex;
     flex-direction: column;
     padding: 64px 172px;
-    background-color: rgb(211, 211, 211);
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
 }
 
 .signup {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgb(87, 119, 226);
+    background-color: #3882F6;
     color: white;
-    padding: 32px 70px;
+    padding: 32px 100px;
     margin: 64px 140px;
+}
+
+.signup .title {
+    font-weight: bold;
+}
+
+.signup button {
+    display: flex;
+    background-color: #3882F6;
+    border: solid white;
+    border-width: 1px;
+    color: white;
+    font-weight: bold;
+    padding: 4px 20px;
+    flex-shrink: 0;
 }
 
 .quote .author {
@@ -110,7 +130,7 @@ media img {
     justify-content: center;
     align-items: center;
     padding: 16px;
-    background-color: rgb(26, 26, 77);
+    background-color: #1F2937;
     color: white;
 }
 ul {
