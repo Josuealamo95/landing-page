@@ -64,7 +64,7 @@ button, media img, .signup {
     font-weight: bold;
 }
 
-.info {
+.section-two {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +72,7 @@ button, media img, .signup {
     padding: 32px;
 }
 
-.info .title {
+.section-two .title {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
@@ -89,6 +89,9 @@ media {
 
 media img {
     max-width: 150px;
+    border: 6px;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 .section-three {
@@ -111,7 +114,7 @@ media img {
 }
 
 
-.signup {
+.section-four {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,11 +124,11 @@ media img {
     margin: 64px 140px;
 }
 
-.signup .title {
+.section-four .title {
     font-weight: bold;
 }
 
-.signup button {
+.section-four button {
     display: flex;
     background-color: #3882F6;
     border: solid white;
