@@ -7,14 +7,35 @@ body {
     font-family: 'Roboto', sans-serif ;
 }
 
-button, media img, .signup {
+.subtext, .links {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+.logo, .intro .title, button, .section-four, .footer {
+    color: #F9FAF8;
+}
+
+.title,  button, .author, .logo {
+    font-weight: 900;
+}
+
+button, media img, .section-four {
     border-radius: 8px;
 }
 
-.banner {
+button {
+    display: flex;
+    background-color: #3882F6;
+    border: solid white;
+    border-width: 1px;
+    padding: 4px 20px;
+    flex-shrink: 0;
+}
+
+.section-one {
     display: flex;
     background-color: #1F2937;
-    color: white;
     flex-direction: column;
     padding: 32px 100px;
 }
@@ -26,19 +47,13 @@ button, media img, .signup {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
 }
 
-.intro .title {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
-}
-
-.subtext, .links {
-  font-size: 18px;
-  color: #E5E7EB;
+ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 16px;
 }
 
 .intro {
@@ -46,6 +61,10 @@ button, media img, .signup {
     padding: 70px 0px;
     justify-content: space-between;
     align-items: center;
+}
+
+.intro .title {
+    font-size: 48px;
 }
 
 .intro img {
@@ -56,12 +75,8 @@ button, media img, .signup {
 }
 
 .intro button {
-    background-color: #3882F6;
-    color: white;
     border: 0px;
-    padding: 4px 20px;
     margin-top: 6px;
-    font-weight: bold;
 }
 
 .section-two {
@@ -74,9 +89,9 @@ button, media img, .signup {
 
 .section-two .title {
     font-size: 36px;
-    font-weight: bold;
     color: #1F2937;
 }
+
 media {
     display: flex;
     justify-content: center;
@@ -103,7 +118,7 @@ media img {
     color: #1F2937
 }
 
-.section-three .quote {
+.quote {
     font-style: italic;
     font-weight: lighter;
 }
@@ -113,30 +128,13 @@ media img {
     justify-content: flex-end;
 }
 
-
 .section-four {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    color: white;
     padding: 32px 100px;
     margin: 64px 140px;
-}
-
-.section-four .title {
-    font-weight: bold;
-}
-
-.section-four button {
-    display: flex;
-    background-color: #3882F6;
-    border: solid white;
-    border-width: 1px;
-    color: white;
-    font-weight: bold;
-    padding: 4px 20px;
-    flex-shrink: 0;
 }
 
 .footer {
@@ -145,11 +143,4 @@ media img {
     align-items: center;
     padding: 16px;
     background-color: #1F2937;
-    color: white;
-}
-ul {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    gap: 16px;
 }
